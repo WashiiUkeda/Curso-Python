@@ -1,0 +1,31 @@
+Manipulacão de texto
+
+    * Fatiamento
+    ex: text[9:13] - isola as posições do texto
+    ex: text[9:20:2] - isola as posições do texto e pula de 2 em 2
+    ex: text[:5] - vai do inicio até a posição 5 do texto
+    ex: text[10:] - vai da posição 10 até a ultima
+    ex: text[9::3] - vai do 9 ate o final e vai pular de 3 em 3
+
+    * Analisar strig
+    len(text) - Len = Lenght = comprimento
+    text.count('o') = count vai contar quantas letras O tem
+    text.count('o', 0, 13) = vai contar quantas letras O tem da posição 0 até a 12
+    text.find('deo') - vai procurar e mostrar a posicao de onde achou
+    find = -1 = não existe
+    in - existe xxx em xxxxxxx
+
+    * Transformação
+    replace - trocar
+    upper - deixa maiuscula
+    lower - deixa minuscula
+    capitalize - só o primeiro caractere da string fica maiusculo
+    title - vai colocar todo primeiro caractere maiusculo
+    strip - retira os espaços no inicio e final
+    rstrip - retira os espaços a direita da string
+    lstrip - retira os espaços a esquerda da string
+
+    * Divisão
+    split - divide as strings a partir dos espaços (gera um lista)
+    join - junta uma lista de string
+    

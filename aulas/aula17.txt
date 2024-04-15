@@ -1,0 +1,22 @@
+Listas parte 1
+
+lanche = [hamb, suco, pizza, pudim]
+lanche[2] = batata
+
+novo lanche vira
+lanche = [hamb, suco, batata, pudim]
+
+append adiciona itens na lista no final.
+insert(indice, o que vai adicionar)
+
+del lanche[3]
+lanche.pop(3)
+lanche.remove('nome do item')
+
+lista.sort() organizar em ordem crescente
+lista.sort(reverse=True) organizar em ordem decrescente
+
+valor = list.range(4,11) cria lista de 4 a 10 onde o 4 é o índice 0 e o 11 é cortado.
+
+len(valor) ver tamanho da lista
+
