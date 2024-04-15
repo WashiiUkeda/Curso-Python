@@ -1,5 +1,0 @@
-comando break = interrompa
-
-cont = 1
-while cont <= 10:
-    print 
