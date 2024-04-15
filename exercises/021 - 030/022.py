@@ -5,7 +5,7 @@
 # * Quantas letras tem o primeiro nome
 
 name = str(input("Informe seu nome completo: ")).strip
-tam = len(name)
+tam = len(name) # type: ignore
 tamEsp = tam - name.count(" ")
 
 print('Nome em minuscula: {}\n'
